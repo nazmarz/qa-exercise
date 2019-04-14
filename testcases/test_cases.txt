@@ -1,0 +1,36 @@
+//please add your test cases here.
+
+Test Cases:
+
+1. Simple test to get the header
+
+2. Create a todo [no tags wrapped around tasks added]
+2.a. Create a todo (assign no cat, no due date)
+2.b. Create a todo (assign cat, no due date) - check color
+2.c. Create a todo (assign cat, due date)- check color
+2.c. Create a todo (assign cat, invalid due date)- check color
+
+4. Modifying existing todo
+4.a. Complete a todo - strike check
+4.b. Remove a todo - check if todo is removed from todo list
+4.c. Complete and then remove a todo
+
+5. Check advanced feature
+5.a. On load advanced features are displayed
+5.b. Clicking advanced link toggles advance controls 
+
+6. Category
+6.a. Create cat with no color
+6.b. Create cat with a chosen color
+6.b. Create another cat with an existing color
+6.b.i. Rename cat with same color
+6.b.ii. Add cat with same color
+6.b.iii. Nevermind - return with no changes
+6.c. Create cat and remove
+6.d. Remove existing cat
+6.e. Check Overdue
+
+7. Toggle all
+7.a. Toggles all checkboxes in todo list
+7.b. Complete all
+7.c. Remove all
